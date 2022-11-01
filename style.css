@@ -1,0 +1,3363 @@
+*{
+    /* border: solid 1px blue; */
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    /* background-clip: padding-box; */
+}
+
+body{
+    /* background-color: aqua; */
+    /* padding: 2.5rem 0px 0; */
+    transform: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+html{
+    scroll-behavior: smooth;
+    /* font-size: .8rem; */
+}
+
+
+
+/* social Media and phone on top......... */
+.socialMediaAndPhoneOnTop{
+    background-color: #000;
+    width: 100%;
+    /* min-height: 2.5rem; */
+    padding: .8rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40.9375rem;
+    position: relative;
+    /* padding: 0px 180px; */
+    /* position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%); */
+    /* z-index: 1; */
+}
+
+.phone{
+    /* color: white; */
+    /* border: solid 1px white; */
+    height: 100%;
+    color: #999;
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+.phone i{
+    /* border: solid 1px white; */
+    margin-right: 0.625rem;
+    font-size: 0.625rem;
+}
+
+.phone p{
+    display: flex;
+    align-items: center;
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+.socialMediaOnTop a{
+    text-decoration: none;
+}
+
+.socialMediaOnTop a{
+    /* border: solid 1px red; */
+    margin-left: 1.9375rem;
+}
+.socialMediaOnTop i{
+    color: #999;
+    transition: .1s;
+}
+
+.socialMediaOnTop i:hover{
+    color: #5fc7ae;
+}
+
+
+/* backgroun image  */
+.backgroundImageForAllTime{
+    /* border-left: solid 1px #ffffff; */
+    border-right: solid 4px #ffffff;
+    background-image: url('images/backGImageForAllTime/wallpaperflare.com_wallpaper.jpg');
+    background-size: cover ;
+    
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 100vh;
+    width: 73.5625rem;
+    position: fixed;
+    top: 0;
+    /* left: 50%;
+    transform: translateX(-50%); */
+    z-index: -10000;
+}
+
+/* this is the container for all things */
+.containerOfAllInMid{
+    border-left: solid #ffffff 2px;
+    border-right: solid #ffffff 2px;
+    /* height: 200px; */
+    width: 73.8rem;
+    position: relative;
+    /* background-color: red; */
+    /* position: absolute;
+    top: 2.5rem; */
+    
+    /* left: 50%;
+    transform: translateX(-50%); */
+
+    /* overflow: hidden; */
+
+}
+
+/* making class (.colntrolNavigationBarWithSlide) for navigatino bar who dissplay with slide  */
+.colntrolNavigationBarWithSlide .emptydiv{
+    height: 10.3125rem;
+    background-color: white;
+}
+
+.colntrolNavigationBarWithSlide .navigationbar{
+   border-bottom: solid 1px #54bea5;
+   width: 100%;
+   min-height: 3.3125rem;
+   position: fixed;
+   top: 0;
+   left: 50%;
+   transform: translateX(-50%);
+   
+   
+   
+   z-index: 1000;
+}
+
+.colntrolNavigationBarWithSlide .logoOfTheCompany{
+    display: none;
+}
+
+.colntrolNavigationBarWithSlide .triangleForNavBArStyling{
+    display: none;
+}
+
+.colntrolNavigationBarWithSlide .navigationBarButtons{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    min-width: 73.8125rem;
+    background-color: #ffffff;
+    
+    
+}
+
+.colntrolNavigationBarWithSlide .containerOfNavBarHomeAndAnother ul li{
+    color: rgb(107, 107, 107);
+    font-weight: 500;
+}
+
+.colntrolNavigationBarWithSlide .iconsInNavBar{
+
+    position: absolute;
+    right: -2.1875rem;
+}
+
+.colntrolNavigationBarWithSlide .iconsInNavBar i{
+    color: rgb(107, 107, 107);
+}
+
+/* navigation bar is here boss....... */
+.navigationbar{
+    /* border: solid 1px red; */
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* min-height: 8.3125rem; */
+    padding: 1.7rem 0;
+    position: relative;
+    z-index: 100;
+    
+    
+    
+
+}
+
+
+
+.navigationBarButtons{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    background-color: #666666;
+    min-width: 76.8%;
+    min-height: 3.25rem;
+    /* border: solid 1px greenyellow; */
+    transform: translateY(.625rem);
+    position: relative;
+
+}
+
+/* first triangle in nav bar */
+.triangleForNavBArStyling{
+    clip-path: polygon(100% 0, 0 0, 0 100%);
+    background-color: #ffffff;
+    border: 1px #ffffff solid;
+    min-height: 3.25rem;
+    width: 2.375rem;
+    transform: translate(-2%, -1%);
+    margin-right: 1.5em;
+}
+
+.containerOfNavBarHomeAndAnother ul{
+    /* border: solid greenyellow 1px; */
+    display: flex;
+    /* justify-content: space-between; */
+    list-style-type: none;
+    height: 3.25rem;
+    /* width: 100%; */
+}
+
+
+
+#home{
+    color: #5fc7ae;
+}
+
+.containerOfNavBarHomeAndAnother ul li{
+    height: 100%;
+    cursor: pointer;
+    /* border: solid 1px red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: .9em;
+    font-weight: 500;
+    transition: color .2s;
+    padding: 0 1.25rem;
+    position: relative;
+    
+    
+}
+
+.containerOfNavBarHomeAndAnother ul li:hover{
+    color: #5fc7ae;
+}
+
+/* hover on men ,list item of .containerOfNavBarHomeAndAnother */
+.menHoverEffect,
+ .ladiesHoverEffect{
+    border-top: solid 2px black;
+    cursor: auto;
+    min-width: 36.5625rem;
+    /* min-height: 18.25rem; */
+    position: absolute;
+    background-color: #ffffff;
+    left: 0;
+    top: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 1.5625rem;
+    transform: scaleY(0);
+    transition: .6s;
+    transform-origin: top;
+    /* z-index: 100; */
+}
+
+.menHoverEffect{
+    gap: 2rem;
+
+}
+
+
+#men:hover .menHoverEffect,
+ #ladies:hover .ladiesHoverEffect{
+    transform: scaleY(1);
+    box-shadow: rgba(0, 0, 0, 0.623) 0px 0px 10px;
+}
+
+/* all images in menhover effect */
+.menHoverEffect img:hover,
+.ladiesHoverEffect img:hover{
+    opacity: 0.8;
+}
+
+.menHoverEffect a,
+.ladiesHoverEffect a{
+    text-decoration: none;
+    /* border: solid 1px blue; */
+    width: fit-content;
+}
+
+.topAndHandBagsInMen{
+    /* border: solid red 2px; */
+    /* background-color: black; */
+    height: 14.875rem;
+}
+
+.topAndHandBagsInMen ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* border: solid 1px greenyellow; */
+    min-height: 9.1875rem;
+}
+
+.boldInMen h5,
+.rowInLadiesHover h5{
+    /* font-size: 0.75rem; */
+    margin-bottom: 0.3125rem;
+}
+
+.topAndHandBagsInMen ul li,
+.rowInLadiesHover ul li{
+    padding: 0;
+    width: fit-content;
+    text-align: start;
+    /* border: solid 1px black; */
+    color: black;
+    transition: .5s;
+}
+
+.topAndHandBagsInMen ul li:hover,
+.rowInLadiesHover ul li:hover{
+    transform: translateX(.4375rem);
+}
+
+.topAndHandBagsInMen ul .noChangeOnHover:hover,
+.rowInLadiesHover ul .noChangeOnHover:hover{
+    transform: translateX(0);
+}
+
+/* hover on ladies ........ */
+.ladies .ladiesHoverEffect{
+    flex-direction: column;
+    
+    padding: 1.25rem 1rem;
+}
+
+
+
+.rowInLadiesHover{
+    /* border: solid red 1px; */
+    display: flex;
+    justify-content: space-between;
+    
+    width: 92%;
+    margin-bottom: .625rem;
+    height: 6.25rem;
+}
+
+.rowInLadiesHover ul{
+    /* border: solid 1px greenyellow; */
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 33.33%;
+}
+
+/* iconsInNavBar.......... */
+.iconsInNavBar{
+    display: flex;
+    gap: 2.125rem;
+    align-items: center;
+    /* border: solid 1px red; */
+    min-width: 14%;
+    position: absolute;
+    right: 0;
+}
+
+
+
+.iconsInNavBar i{
+    font-size: 1rem;
+    color: #ffffff;
+    transition: .2s;
+    cursor: pointer;
+}
+
+#searchInNavBar:hover{
+    color: #5fc7ae;
+    
+}
+
+/* making search box  */
+#searchInNavBar{
+    position: relative;
+    transition: 1s;
+}
+
+.searchboxInNav{
+    background-color: #ffffff;
+    /* border: none;           border is changing from js */
+    position: absolute;
+    top: 2.375rem;
+    right: 77%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 20.625rem;
+    height: 2.5rem;
+    transition: .3s ease-in-out;
+    overflow: hidden;
+    
+    
+}
+
+/* making class for hide seach box from js */
+.hideSearchBoxInNav .searchboxInNav{
+    top: 2rem;
+    height: 0px;
+    overflow: hidden;
+    
+}
+
+#searched{
+    padding:0 1.25rem;
+    border: 1px solid #54bea5;
+    outline: none;
+    font-size: 0.75rem;
+    min-height: 100%;
+    width: 100%;
+    color: #858585;
+}
+
+#searchInSearchBox{
+    border: none;
+    font-size: 1.25rem;
+    background-color: #54bea5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    min-height: 100%;
+    position: relative;
+    color: white;
+
+}
+
+.triangleInSearchBox{
+    clip-path: polygon(50% 50%, 0 100%, 100% 100%);
+    background-color: #54bea5;
+    position: absolute;
+    left: 50%;
+    top: -66%;
+    transform: translateX(-50%);
+
+    height: 73%;
+    width: 80%;
+    transition: .6s;
+    z-index: -1;
+}
+
+/* making class for slide triangle up */
+.hideSearchBoxInNav .triangleInSearchBox{
+    top: -40%;
+    top: 0;
+}
+
+
+
+
+.basketIconAndCart{
+    display: flex;
+    align-items: center;
+    /* border: solid 1px white; */
+}
+
+
+#bucketOfCart{
+    font-size: 1.125rem;
+    transition: .2s;
+
+}
+
+.basketIconAndCart:hover #bucketOfCart{
+    color: #5fc7ae;
+}
+
+.boxForCartNumber{
+    background-color: #5fc7ae;
+    height: 1.125rem;
+    min-width: 2.25rem;
+    color: #ffffff;
+    margin: 0 0.625rem;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+}
+
+.boxForCartNumber span{
+    font-size: .875rem;
+}
+
+/* go to top arrow........ */
+#goToTop{
+    background-color: #54bea5;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    height: 3.2rem;
+    width: 3.2rem;
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    border-radius: 5px;
+    font-size: 1.8rem;
+    color: white;
+    cursor: pointer;
+    transition: .5s;
+    /* transition-delay: .1s; */
+    opacity: 0;
+    z-index: 100000000;
+    
+}
+
+/* main slider......... */
+.containerMainSlider{
+    /* border: solid 1px red; */
+    /* background-color: white; */
+    height: 36rem;
+    width: 100%;
+    position: relative;
+    /* padding: 0 3.5rem; */
+    
+    
+    /* z-index: -1; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;      
+}
+
+.arrowcontainerMainSlider{
+    font-size: 1.8rem;
+    font-weight: 600;
+    position: absolute;
+    top: 50%;
+    
+    transform: translateY(-50%);
+    /* border: solid 1px blue; */
+    color: #ffffff;
+    transition: .3s;
+    cursor: pointer;
+    z-index: 100;
+
+}
+
+.arrowcontainerMainSlider:hover{
+    color: #54bea5;
+}
+
+#leftArrowcontainerMainSlider{
+    left: 0;
+    margin-left: 1.1rem;
+}
+
+#rightArrowcontainerMainSlider{
+    right: 0;
+    margin-right: 1.1rem;
+}
+
+.containerOfmainSliderContents{
+    /* border: solid greenyellow 1px; */
+    display: flex;
+    /* width: calc(3*73.5625rem); */
+    height: 100%;
+    z-index: 5;
+    transition: .8s ease-out;
+    position: relative;
+    left: 0;
+    
+}
+
+.mainSliderContent{
+    /* border: solid 1px rgb(214, 192, 255); */
+    width: 73.5625rem;
+    height: 100%;
+    padding: 0 3.3rem;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    transition: .8s;
+
+}
+
+#mainsliderContentFirst{
+    background-image: url("images/mainSlider/slider-111.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    align-items: flex-end;
+    /* color: white; */
+    
+}
+#mainsliderContentSecond{
+    background-image: url("images/mainSlider/slider-222.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    align-items: flex-start;
+    
+}
+#mainsliderContentThird{
+    background-image: url("images/mainSlider/slider-333.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    align-items: flex-start;
+}
+
+/* third content of slider's things */
+.h1InMainSliderThird,
+.h1InMainSliderSecond,
+.h1InMainSliderFirst{
+    text-transform: uppercase;
+    font-weight: 600;
+    color: white;
+    font-size: 2.2rem;
+    margin-top: 11rem;
+    
+    
+    /* border: solid 1px white; */
+    transition: .9s ease-in-out;
+}
+
+.h1InMainSliderThird{
+    width: 100rem;
+
+}
+
+.peraInMainSliderThird,
+.peraInMainSliderSecond,
+.peraInMainSliderFirst{
+    color: white;
+    font-size: .8rem;
+    transition: .9s ease-in-out;
+}
+
+.peraInMainSliderFirst{
+    text-align: end;
+}
+
+.peraInMainSliderThird,
+.peraInMainSliderFirst{
+    transition-delay: .5s;
+
+}
+    
+
+.priceInMainSliderThird,
+.priceInMainSliderSecond,
+.priceInMainSliderFirst{
+    color: white;
+    text-transform: uppercase;
+    font-size: .8rem;
+    margin-top: 1.5rem;
+    transition: .9s ease-in-out;
+    transform-origin: left;
+
+}
+
+
+
+.priceInMainSliderFirst{
+    transition-delay: .7s;
+}
+
+.shopNowAInMainSliderThird,
+.shopNowAInMainSliderSecond,
+.shopNowAInMainSliderFirst{
+    background-color: #54bea5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color:white;
+    margin-top: 1.5rem;
+    font-size: .8rem;
+    
+    height: 2.7rem;
+    width: 8rem;
+    transition: .9s ease-in-out ;
+}
+
+.shopNowAInMainSliderThird:hover,
+.shopNowAInMainSliderSecond:hover,
+.shopNowAInMainSliderFirst:hover{
+    background-color: #000;
+    transition: .7s;
+    
+}
+
+.shopNowAInMainSliderFirst{
+    transition-delay: .5s;
+}
+
+
+
+/* making change position in third, class(.changePositionClassForSlider)................ */
+.changePositionClassForSlider .h1InMainSliderThird,
+.changePositionClassForSlider .priceInMainSliderThird{
+    font-size: 10rem;
+    min-width: 100rem;
+    transform: translateX(-30rem);
+    opacity: 0;
+    
+}
+
+.changePositionClassForSlider .shopNowAInMainSliderThird{
+    transform: translateX(-30rem);
+    
+}
+
+.changePositionClassForSlider .peraInMainSliderThird,
+.changePositionClassForSlider .peraInMainSliderFirst{
+    transform: scale(0);
+    transition-delay: 0s;
+    
+}
+
+/* making change position in first, class(.changePositionClassForSlider)................ */
+.changePositionClassForSlider .h1InMainSliderFirst{
+    transform: rotate(-180deg);
+    opacity: 0;
+}
+
+.changePositionClassForSlider .priceInMainSliderFirst{
+    transform: translateX(13rem);
+    transition-delay: 0s;
+}
+
+.changePositionClassForSlider .shopNowAInMainSliderFirst{
+    transform: rotate(-90deg) translate(6rem,-15rem);;
+    transform-origin: left;
+    margin-left: 10rem;
+    opacity: 0;
+}
+
+/* making change position in second, class(.changePositionClassForSlider)................ */
+.changePositionClassForSlider .h1InMainSliderSecond,
+.changePositionClassForSlider .peraInMainSliderSecond,
+.changePositionClassForSlider .shopNowAInMainSliderSecond,
+.changePositionClassForSlider .priceInMainSliderSecond
+{
+    
+    opacity: 0;
+    transform: scale(5) translateX(-10rem);
+    
+}
+
+
+/* animated logos on hover after main slider......... */
+.rotateLogosOnHoverContainer{
+    background-color: #ffffff;
+    /* min-height: 14rem; */
+    width: 100%;
+    padding: 2rem 0;
+    display: flex;
+    
+    
+}
+
+.rotateLogoBox{
+    /* border: solid 1px red; */
+    width: 33.33% ;
+    height: 10rem;
+    display: flex;
+    gap: .7rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+
+}
+
+
+
+.rotateLogoBoxFirst{
+    background-color: #5fc7ae;
+}
+.rotateLogoBoxSecond{
+    background-color: #0f1e21;
+}
+.rotateLogoBoxThird{
+    background-color: #f9b838;;
+}
+
+.rotateLogoBox i{
+    font-size: 1.5rem !important;
+    transition: .6s;
+    /* transform: rotateY(45deg); */
+
+}
+
+.rotateLogoBox:hover .rotatingLogo{
+    transform: rotateY(360deg);
+}
+
+.rotateLogoBox p{
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: default;
+}
+
+/* sales and products...... */
+.ContainerProductsAndSales{
+    background-color: #ffffff;
+    /* min-height: 30rem; */
+    padding: 2rem 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ContainerProductsAndSales a{
+    height: 36rem;
+    width: 49%;
+    text-decoration: none;
+    
+}
+
+.ProductsAndSalesBox{
+    /* border: solid 1px red; */
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.ProductsAndSalesBoxFirst{
+    background-image: url('images/productsAndSalesSection/p&s1.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.ProductsAndSalesBoxSecond{
+    background-image: url('images/productsAndSalesSection/p&s2.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+
+/* reflection.... */
+.reflectionOnProdectsAndSales{
+    width: 200%;
+    transform: rotateZ(37deg) translate(-9% , -94%);
+    
+    transition: .4s;
+}
+
+.ContainerProductsAndSales a:hover .reflectionOnProdectsAndSales{
+    
+    width: 200%;
+    transform: rotateZ(37deg) translate(-15% , 559%);
+}
+
+    
+
+
+
+.reflectionLineProductsAndSales{
+    width: 100%;
+    height: 5rem;
+    margin-bottom: 1.3rem;
+    /* background-color: #54bea5; */
+    background-color: #ffffff29;
+    
+}
+
+.reflectionLineProductsAndSalesBig{
+    height: 9rem !important;
+}
+
+/* featured products..... */
+.containerOfFeaturedProducts,
+.contaienrOfSaleProducts{
+    background-color: #ffffff;
+    padding: 2rem 0;
+    
+}
+
+/* heading featured products */
+.headingBoxOfFeaturedProducts,
+.headingBoxOfSaleProducts{
+   text-align: center;
+    /* border: solid 1px black; */
+    margin-bottom: 2rem;
+
+}
+
+.headingBoxOfFeaturedProducts img,
+.headingBoxOfSaleProducts img{
+    margin-bottom: 1rem;
+}
+
+.headingBoxOfFeaturedProducts h2,
+.headingBoxOfSaleProducts a{
+    color: #444;
+    transition: .2s;
+}
+
+.headingBoxOfFeaturedProducts p,
+.headingBoxOfSaleProducts p{
+    color: #666666;
+    font-size: .8rem;
+    /* font-weight: 600; */
+}
+
+/* showing box of featured products and sale products..... */
+.showingFeaturedProducts,
+.showingSaleProducts{
+    /* border: solid 1px red; */
+    width: 100%;
+    height: 24rem;
+    margin-bottom: 2rem;
+    
+    overflow: hidden;
+}
+
+
+.containerOfFeaturedProductsBoxes,
+.containerOfSaleProductsBoxes{
+    /* border: solid 1px black; */
+    display: flex;
+    /* gap: 1.8rem; */
+    height: 100%;
+    transition: .5s;
+    position: relative;
+    left: 0;
+    /* padding: 0 .9rem; */
+    min-width: fit-content;
+    /* pointer-events: none; */
+    
+}
+
+.mainFeaturedProductBox,
+.mainSaleProductBox{
+    border: solid 1px #ebebeb;
+    min-height: 100%;
+    min-width: 16.5rem;
+    margin: 0 .94rem;
+}
+
+/* image container in featured products.......... */
+.imageAndIconOfFeaturedProduct{
+    /* border: solid 1px blue; */
+    position: relative;
+    min-height: fit-content;
+    margin-bottom: 1rem;
+    overflow: hidden;
+}
+
+.imageAndIconOfFeaturedProduct img{
+    /* border: solid 1px darkmagenta; */
+    cursor: pointer;
+    
+    width: 100%;
+}
+
+.hoverImageInFeaturedProducts{
+    /* border: solid 1px brown; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: .2s;
+}
+
+.mainFeaturedProductBox:hover .hoverImageInFeaturedProducts,
+.mainSaleProductBox:hover .hoverImageInFeaturedProducts{
+    opacity: 1;
+}
+
+.newLogoInFeaturedProducts{
+    position: absolute;
+    top: .3rem;
+    left: .3rem;
+    background-color: #000;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.7rem;
+    height: 2.7rem;
+    font-size: .8rem;
+}
+
+.saleLogoInFeaturedProducts{
+    position: absolute;
+    top: .3rem;
+    right: .3rem;
+    background-color: #54bea5;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.7rem;
+    height: 2.7rem;
+    font-size: .8rem;
+
+}
+
+.searchInFeaturedProducts{
+    position: absolute;
+    bottom: -3rem;
+    right: -6rem;
+    display: flex;
+    border-radius: 50%;
+    height: 6rem;
+    width: 6rem;
+    padding-top: 1.4rem;
+    padding-left: 1.4rem;
+    color: white;
+    text-decoration: none;
+    
+    background-color: rgb(134, 134, 134); 
+    transition: .2s;
+}
+
+.searchInFeaturedProducts:hover{
+    background-color: #54bea5;
+}
+
+.mainFeaturedProductBox:hover .searchInFeaturedProducts,
+.mainSaleProductBox:hover .searchInFeaturedProducts{
+    right: -3rem;
+}
+
+.nameOfFeaturedProducts{
+    text-decoration: none;
+    margin-left: 1rem;
+    
+    font-size: .8rem;
+    font-weight: 400;
+    color: #000;
+    transition: .2s;
+}
+
+.nameOfFeaturedProducts:hover{
+    color: #54bea5;
+}
+
+/* prices */
+.priceAndBasketOfFeaturedProduct{
+    /* border: solid 1px black; */
+    background-color: #ebebeb;
+    margin-top: 1rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    padding-right: .5rem;
+    justify-content: space-between;
+}
+
+.pricesOfFeaturedProduct{
+    clip-path: polygon(0% 0%, 75% 0%, 68% 46%, 75% 100%, 0% 100%);
+    width: 10rem;
+    height: 100%;
+    background-color: #000;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: .5rem;
+}
+
+.originalPriceOfFeaturedProduct{
+    font-size: .9rem;
+    font-weight: 700;
+}
+
+.CutPriceOfFeaturedProduct{
+    font-size: .8rem;
+    color: #999;
+    margin-left: .4rem;
+
+}
+
+.basketInFeaturedProductPrice{
+    transition: .2s;
+    cursor: pointer;
+    color: rgb(108, 108, 108);
+}
+
+.basketInFeaturedProductPrice:hover{
+    color: #54bea5;
+}
+
+/* buttons for featured products slide */
+.buttonsForFeaturedProductsSlide,
+.sliderButtonsForFromTheBlog{
+    display: flex;
+    justify-content: center;
+    gap: .8rem;
+    /* margin-top: 2rem; */
+}
+
+.buttonForFeaturedProductSlide,
+.buttonForFromTheBlogslide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 1px solid #ebebeb;
+    color: black;
+    font-size: .8rem;
+    font-weight: 600;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: #ffffff;
+    cursor: pointer;
+    /* transition: .3s; */
+}
+
+.buttonForFeaturedProductSlide:hover,
+.buttonForFromTheBlogslide:hover{
+    background-color: #54bea5;
+    color: white;
+}
+
+.showAfterShrink{
+    display: none;
+}
+
+/* making class(.changeColorOfSlideButtonFeaturedProducts) for add with js for featured products slide buttons */
+.buttonsForFeaturedProductsSlide .changeColorOfSlideButtonFeaturedProducts{
+    background-color: #54bea5;
+    color: white;
+    
+}
+
+/* two small ads with reflection....... */
+.smallAdds{
+    padding: 2rem 0;
+    background-color: #ffffff;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+
+
+.smallAdFirst{
+    background-image: url('images/smallAds/smalladd1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.smallAdSecond{
+    background-image: url('images/smallAds/smalladd2.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.smallAd{
+    min-height: 12.6rem;
+    min-width: 35.7rem;
+    /* border: solid 1px black; */
+    position: relative;
+    overflow: hidden;
+}
+
+.reflectionInSmallAd{
+    position: absolute;
+    top: 0;
+    width: 120%;
+    height: 70%;
+    background-color: rgba(255, 255, 255, 0.21);
+    transform: rotate(43deg) translate(-11% , -199%);
+    transition: .4s;
+    
+}
+
+.smallAd:hover .reflectionInSmallAd{
+    
+    transform: rotate(43deg) translate(-11% , 315%);
+}
+
+
+/* sale products.... */
+
+
+.showingSaleProducts{
+    cursor: grab;
+}
+
+.showingSaleProducts .containerOfSaleProductsBoxes{
+    transition: 0s;
+}
+
+.headingBoxOfSaleProducts a{
+    text-decoration: none;
+    
+}
+
+.headingBoxOfSaleProducts h2{
+    transition: .2s;
+}
+
+.headingBoxOfSaleProducts a:hover{
+    color: #54bea5;
+    
+}
+
+/* transparent part in site */
+.transparentPart{
+    background-color: rgba(160, 140, 140, 0.258);
+    text-align: center;
+    padding: 1rem;
+    
+}
+
+.containerInTransparentPart{
+    border: solid 1px #8d8c8b;
+    padding: 2rem 0;
+}
+
+.headingInTransparentPart{
+    /* margin-top: 2rem; */
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.afterHeadingInTransparentPart{
+    color: white;
+    font-size: .9rem;
+    margin-bottom: 1.3rem;
+}
+
+.aboutInTransparent{
+    background-color: #e9eaea;
+    width: 45%;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+    padding-left: 3rem;
+    text-align: start;
+    position: relative;
+}
+
+.imagecontainerInTransparent{
+    position: absolute;
+    left: -4rem;
+    top: 50%;
+    transform: translateY(-50%);
+    height: fit-content;
+   /* border: saddlebrown solid 1px; */
+}
+
+.imagecontainerInTransparent img{
+    border: solid 3px black;
+    border-radius: 50%;
+    width: 5rem;
+    box-shadow: 0px 0px 6px #000 ;
+    position: relative;
+    z-index: 2;
+}
+
+.triangleForTransparentPart{
+    clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+    background-color: #e9eaea;
+    /* background-color: rgb(255, 255, 255); */
+    height: 3rem;
+    width: 3rem;
+    position: absolute;
+    top: -2rem;
+    left: 2rem;
+    z-index: 1;
+}
+
+/* name and pera in transparent part */
+.nameInTransparent{
+    font-size: .9rem;
+    font-weight: 600;
+    color: #444444;
+}
+
+.postInTransparent{
+    font-size: .78rem;
+    font-weight: 500;
+    color: #54bea5;
+}
+
+.aboutPeraInTARnsparent{
+    /* border: solid 1px black; */
+    margin-top: 1rem;
+    font-size: small;
+    color: #666;
+    position: relative;
+}
+
+.aboutPeraInTARnsparent .quoteInTansparentPart{
+    font-size: .4rem;
+    margin: 0 .3rem;
+    position: relative;
+    top: -.4rem;
+}
+
+
+/* top products in one box......... */
+.topProductsInOneBox{
+    background-color: #ffffff;
+    padding: 4rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.showingProductsColumnInTopProducts{
+    border: solid 1px #ebebeb;
+    width: 23.125rem;
+    position: relative;
+    
+    
+}
+
+.showingProductsColumnInTopProducts h2{
+    color: #444444;
+    font-size: 1.2rem;
+    border-bottom: solid 1px #ebebeb;
+    text-align: center;
+    padding: 1rem 0;
+    /* margin-bottom: 2rem; */
+}
+
+.showingDivForColumnsInTopProductsReal{
+    /* border: solid 1px blue; */
+    width: 100%;
+    overflow: hidden;
+}
+
+.containerOfProductsColumnsInTopProducts{
+    /* background-color: red; */
+    min-width: fit-content;
+    display: flex;
+    
+    position: relative;
+    left: 0px;
+    transition: .6s;
+    
+    
+   
+}
+
+.columnsInSaleProducts{
+    min-width: 22.99rem;
+    padding: 0 1rem;
+    /* border: solid 1px greenyellow; */
+}
+
+.mainProductsIntopProductsBox{
+    width: 100%;
+    border-bottom: solid 2px #fafafa;
+    margin-top: 1.5rem;
+    display: flex;
+}
+
+
+
+.mainProductsIntopProductsBox:hover  img{
+    opacity: .7;
+}
+
+.nameAndPriceInTopProducts{
+    /* border: solid 1px black; */
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.nameInTopProducts{
+    text-decoration: none;
+    color: #444444;
+    font-size: .75rem;
+    font-weight: 500;
+    margin-top: 2rem;
+    margin-bottom: .1rem;
+}
+
+.nameInTopProducts:hover{
+    color: #54bea5;
+}
+
+.pricesInTopProducts{
+    align-items: baseline;
+}
+
+.priceInTopProducts{
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #54bea5;
+}
+
+.cutPriceInTopProducts{
+    color: #999999;
+    font-size: .8rem;
+    margin-left: .3rem;
+}
+
+/* container of arrows in top products in one box.. */
+.containerOfArrowsInTopProducts{
+    background-color: #54bea5;
+    border-radius: 30px;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, 50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    height: 1.7rem;
+}
+
+.containerOfArrowsInTopProducts i{
+    cursor: pointer;
+    color: white;
+    font-size: .9rem;
+    /* border: solid 1px black; */
+    -webkit-text-stroke: 0px ;
+    height: 100%;
+    width: 48%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.containerOfArrowsInTopProducts i:hover{
+    transition: .5s;
+    color: #5e6563;
+}
+
+.midLineForArrows{
+    border-right: 1px solid #82ada3;
+    height: 58%;
+}
+
+/* from the blog.......... */
+.fromTheBlog{
+    background-color: #ffffff;
+    padding: 2rem 0 ;
+    /* border: solid 1px black; */
+}
+
+.headingInFromTheBlog a{
+    text-decoration: none;
+    transition: .2s;
+    color: #444444;
+    
+}
+
+.headingInFromTheBlog a:hover{
+    color: #54bea5;
+
+}
+
+.headingInFromTheBlog {
+    text-align: center;
+    
+}
+
+
+.afterHeadingInFromTheBlog{
+    text-align: center;
+    color: #666666;
+    font-size: .8rem;
+    margin-bottom: 2rem;
+}
+
+
+/* showing blog elements..... */
+
+
+.showingFromTheBlogElements{
+    /* border: solid 1px red; */
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 2rem;
+}
+
+.sliderContainerOfFromTheBlogElements{
+    /* border: solid 1px greenyellow; */
+    display: flex;
+    min-width: fit-content;
+    position: relative;
+    left: 0;
+    transition: .5s ;
+}
+
+.mainElementInFromTheBlog{
+    /* border: solid blue 1px; */
+    min-width: calc(73.56rem * 50/100) ;
+    padding: 0 .8rem;
+    
+}
+
+.containerOfElementInFromTheBlog{
+    border: solid 1px #ebebeb;
+    display: flex;
+    
+}
+
+.containerOfImageInFromTheBlog{
+    /* border: solid 1px rgb(255, 0, 128); */
+    height: 10rem;
+    min-width: fit-content;
+    overflow: hidden;
+}
+
+.containerOfImageInFromTheBlog img{
+    transition: .2s;
+}
+
+.containerOfElementInFromTheBlog:hover .containerOfImageInFromTheBlog img{
+    transform: scale(1.1);
+}
+
+.BlogInFromTheBlog{
+    padding: 1rem 0 0 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.headingBlog{
+    width: fit-content;
+    text-decoration: none;
+    color: #444444;
+    font-size: .84rem;
+    font-weight: 900;
+    transition: .3s;
+    
+}
+
+.headingBlog:hover{
+    text-decoration: underline;
+    color: #54bea5;
+}
+
+.afterHeadingBLog{
+    color: #999999;
+    border-bottom: 1px solid #f2f2f2;
+    font-size: .7rem;
+    padding: .4rem 0;
+    width: 96%;
+}
+
+.containerOfElementInFromTheBlog:hover .afterHeadingBLog{
+    border-color: #54bea5;
+}
+
+.mainBlogInFromTheBlog{
+    /* border: solid 1px black; */
+    font-size: .77rem;
+    color: #666666;
+    font-weight: 500;
+    margin-top: .5rem;
+}
+
+/* making class(.changeColorOfSlideButtonFromTheBlog) for add with js for featured products slide buttons */
+.sliderButtonsForFromTheBlog .changeColorOfSlideButtonFromTheBlog{
+    background-color: #54bea5;
+    color: white;
+    
+}
+
+/* brand logos...... */
+.bigContainerBrandsLogos{
+    background-color: #ffffff;
+    /* border: solid 1px green; */
+}
+
+.showOtherBrands{
+    background-color: #ffffff;
+    width: 100%;
+    padding: 3.5rem 0;
+    /* border: solid 1px red; */
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.slideContainerOfBrands{
+    /* border: solid 1px blue; */
+    display: flex;
+    min-width: fit-content;
+    position: relative;
+    left: 0;
+}
+
+.brandLogo{
+    /* border: solid 1px red; */
+    padding: 0 .75rem;
+}
+
+/* footer....... */
+.footer{
+    background-color: #0f1e22;
+    width: 100%;
+    color: white;
+}
+
+.mainFooter{
+    /* border: solid 1px white; */
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    /* padding-bottom: 3rem; */
+    min-height: 26.5rem;
+    
+    
+    
+}
+
+.firstAndlastInMainFooter{
+    /* border: solid 1px red; */
+    height: fit-content;
+    width: 20rem;
+    
+    
+}
+
+.headingFooter{
+    background-color: #54bea5;
+    clip-path: polygon(100% 0%, 89% 50%, 100% 100%, 0 100%, 0% 50%, 0 0);
+    width: 8.5rem;
+    margin-top: 3rem;
+    margin-bottom: 2.3rem;
+    font-size: .9rem;
+    padding: .5rem 0rem .5rem 1rem;
+}
+
+.containerOfDetails{
+    /* border: solid 1px red; */
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.containerOf2Details{
+    display: flex;
+    flex-direction: column;
+    
+    gap: 2rem;
+}
+
+.detail{
+    /* border: solid 1px blue; */
+    display: flex;
+    align-items: center;
+    /* margin-bottom: 2rem; */
+}
+
+.detail i{
+    background-color: #273438;
+    margin-right: 1rem;
+    font-size: .99rem;
+    height: 2rem;
+    width: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    border-radius: 50%;
+}
+
+.headingMainDetail{
+    font-size: .75rem;
+    font-weight: 900;
+    margin-bottom: .1rem;
+}
+
+.aboutHeadingInDetail{
+    font-size: .72rem;
+    color: #666666;
+}
+
+.linkOfMail{
+    text-decoration: none;
+    color: #666666;
+    transition: .2s;
+}
+
+.linkOfMail:hover{
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+
+.containerOfAboutUsPeras{
+    /* border: solid 1px blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    /* margin-bottom: 2rem; */
+    gap: .9rem;
+}
+
+.containerOfAboutUsPeras p{
+    /* border: solid 1px greenyellow; */
+    font-size: .8rem;
+    word-spacing: 2px;
+    color: #999999;
+}
+
+/* mid footer with triangle......... */
+.midInMainFooter{
+    /* border: solid 1px greenyellow; */
+    width: 30rem;
+    background-color: #152326;
+    /* margin: 0 1rem; */
+    text-align: center;
+    position: relative;
+}
+
+.whiteTriangleInMidFooter{
+    clip-path: polygon(50% 80%, 0 0, 100% 0);
+    background-color: white;
+    width: 100%;
+    height: 3rem;
+    margin-bottom: 3rem;
+    transform: translateY(-1px);
+    
+}
+
+.headingMidFooter{
+    font-size: 1.7rem;
+    color: #ffffff;
+    margin-bottom: 1rem;
+}
+
+.peraMidFooter{
+    /* border: solid 1px red; */
+    font-size: .74rem;
+    color: #999999;
+    width: 26rem;
+    margin: 0 auto 1.7rem;
+}
+
+.subscribeContainer{
+    /* border: solid 1px red; */
+    width: fit-content;
+    margin: 0 auto;
+    background-color: #2c393b;
+    display: flex;
+    align-items: center;
+    
+}
+
+.subscribeContainer input{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    width: 17rem;
+    color: #999999;
+    padding-left: 1rem;
+    padding-right: .5rem;
+    font-size: .8rem;
+}
+
+.boxSubscribe{
+    background-color: #54bea5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    height: 2.8125rem;
+    width: 8.29625rem;
+    color: white;
+    text-decoration: none;
+    font-size: .9rem;
+    cursor: pointer;
+    border: none;
+}
+
+.boxSubscribe:hover{
+    text-decoration: underline;
+}
+
+.headigFollowUs{
+    margin: 2rem 0;
+}
+
+.containerOfSocialMediaInFooter{
+    /* border: solid 1px red; */
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.containerOfSocialMediaInFooter a{
+    text-decoration: none;
+}
+
+.containerOfSocialMediaInFooter a i{
+    color: white;
+    background-color: #2c393b;
+    height: 2.7rem;
+    width: 2.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+
+}
+
+.containerOfSocialMediaInFooter a i:hover{
+    background-color: #54bea5;
+}
+
+.bottomTriangleInMidFooter{
+    background-color: #152326;
+    clip-path: polygon(50% 101%, 0 0, 100% 0);
+    
+    width: 100%;
+    height: 3rem;
+    position: absolute;
+    top: 99.9%;
+}
+
+/* payment card and others.... */
+.paymentCardAndOther{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 37rem;
+    background-color: white;
+    height: 3.3rem;
+    
+}
+
+.rights{
+    color: #666666;
+    font-size: 0.75rem;
+}
+
+.rights a{
+    color: #54bea5;
+    transition: .2s;
+    
+}
+
+.rights a:hover{
+    color: #000;
+    text-decoration: underline;
+}
+
+
+/* making menu list......... */
+.menuList{
+    background-color: #ffffff;
+    
+    padding: 2rem 0;
+    position: relative;
+    display: none;
+    
+}
+
+.headingMenuList{
+    background-color: #0f1e21;
+    color: white;
+    padding: 1.2rem 2rem;
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+#menuBars{
+    color: white;
+    
+}
+
+
+
+.containerOfMenuListItems{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #f1f1f1;
+    z-index: 900;
+    /* font-size: initial; */
+    width: 100%;
+    color: #000;
+    padding: 0 1.5rem;
+    box-shadow: #9f9f9f 0px 0px 15px;
+    transition: .5s;
+    
+}
+
+/* making addable class(.hideMenuItems) with js */
+.hideMenuItems .containerOfMenuListItems{
+    left: -100%;
+    opacity: 0;
+}
+
+.containerOfMenuListItems ul li{
+    list-style-type: none;
+    font-size: 1.4rem;
+    padding: .99rem .5rem;
+    border-bottom: solid 1px rgb(220, 220, 226);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.plusOrMinusInNavBar{
+    color: #666;
+}
+
+
+/* -----------media querysss ------------- */
+
+@media (max-width: 1190px){
+    html{
+        font-size: 13px;
+    }
+
+    .socialMediaAndPhoneOnTop { 
+        gap: 38.9375rem;
+    }
+
+    .phone p {
+        font-size: .85rem;
+    }
+    
+    
+
+}
+
+@media(max-width: 1180px){
+
+    /* slae products... */
+    .showingSaleProducts {
+        overflow-x: scroll;
+    }
+    
+    /* other brands... */
+    .showOtherBrands {
+        overflow-x: scroll;
+    }
+
+    .brandLogo{
+        padding: 0 2.61rem;
+    }
+
+}
+
+
+@media (max-width: 967px){
+    html{
+        font-size: 10px;
+    }
+
+    .socialMediaAndPhoneOnTop{
+        padding: 1rem 0;
+        gap: 29rem;
+    }
+
+    .phone i { 
+        font-size: 1.1rem;
+    }
+
+    .phone p{
+        font-size: 1.2rem;
+    }
+
+    .socialMediaOnTop i{
+        font-size: 1.5rem;
+    }
+
+    
+    /* navigation bar.... */
+    .navigationBarButtons{
+        min-width: fit-content;
+        background-color: white;
+
+    }
+
+    .iconsInNavBar i{
+        color: black;
+        font-size: 1.8rem;
+    }
+
+    #bucketOfCart {
+        font-size: 1.8rem;
+    }
+
+    .boxForCartNumber{
+        height: 2.125rem;
+        min-width: 3.5rem;
+    }
+
+    .boxForCartNumber span{
+        font-size: 1.5rem;
+    }
+
+    
+
+    .containerOfNavBarHomeAndAnother{
+        display: none;
+    }
+
+    /* search box... */
+    .searchboxInNav{
+        width: 21.625rem;
+        height: 3.5rem;
+    }
+
+    #searched{
+        font-size: 1rem;
+    }
+
+    #searchInSearchBox {
+        font-size: 1.5rem;
+    }
+
+    /* menu list */
+    .menuList{
+        display: block;
+    }
+    
+    .men,
+    .ladies{
+        position: relative;
+    }
+
+
+    .menHoverEffect,
+    .ladiesHoverEffect{
+        position: relative;
+        transform: scaleY(1);
+        height: 28rem;
+        overflow: hidden;
+        
+    }
+
+    /* making addable class(.menHoverEffectWithPlus) for menHovereffec.. */
+    
+    div.menHoverEffectWithPlus{
+        padding-top: 0 ;
+        padding-bottom: 0 ;
+        
+        height: 0px;
+        border: none;
+        
+        
+    }
+
+    /* making addable class(.ladiesHoverEffectWithPlus) for ladiesHovereffec.. */
+    
+    #ladiesForLadiesHoverEffectWithPlus .ladiesHoverEffectWithPlus{
+        padding-top: 0 ;
+        padding-bottom: 0 ;
+        
+        height: 0px;
+        border: none;
+        
+        
+    }
+
+    .menHoverEffect{
+        align-items: unset;
+
+    }
+
+    .menHoverEffect ul li,
+    .ladiesHoverEffect ul li{
+        padding: initial;
+        border: initial;
+    }
+
+    
+
+    .ladies .ladiesHoverEffect{
+        height: 34rem;
+        align-items: start;
+
+    }
+
+    .topAndHandBagsInMen ul{
+        gap: .5rem;
+    } 
+
+    .backgroundImageForAllTime{
+        background-size: cover;
+    }
+
+  /* featured products.... */
+  .headingBoxOfFeaturedProducts h2, .headingBoxOfSaleProducts a{
+      font-size: 2rem;
+  }
+
+  .headingBoxOfFeaturedProducts p, .headingBoxOfSaleProducts p{
+      font-size: 1rem;
+  }
+
+  .showingFeaturedProducts{
+      height: 31rem;
+      
+  }
+
+  .mainFeaturedProductBox{
+      min-width: 23.5rem;
+      margin: 0 6.6rem;
+  }
+
+  .buttonForFeaturedProductSlide,
+  .buttonForFromTheBlogslide  {
+      width: 3.5rem;
+      height: 3.5rem;
+      font-size: 1.2rem;
+  }
+
+  .newLogoInFeaturedProducts {
+    top: 1.3rem;
+    left: 1.3rem;
+    width: 3.7rem;
+    height: 3.7rem;
+    font-size: 1.2rem;
+}
+
+  .saleLogoInFeaturedProducts {
+    top: 1.3rem;
+    right: 1.3rem;
+    width: 3.7rem;
+    height: 3.7rem;
+    font-size: 1.2rem;
+}
+
+  .showAfterShrink{
+      display: flex;
+  }
+
+    /* sale Products... */
+    .showingSaleProducts{
+        height: 31rem;
+    }
+
+    .mainSaleProductBox{
+        min-width: 23.5rem;
+        margin: 0 6.6rem;
+    }
+
+    /* transparent part... */
+    .headingInTransparentPart{
+        font-size: 2rem;
+    }
+
+    .afterHeadingInTransparentPart{
+        font-size: 1.3rem;
+    }
+
+    .aboutInTransparent{
+        width: 55%;
+    } 
+
+    .imagecontainerInTransparent {
+        left: -5rem;
+    }
+
+    .triangleForTransparentPart {
+        left: 2.5rem;
+    }
+
+    .imagecontainerInTransparent img {
+        width: 7rem;
+
+    }
+
+    .nameInTransparent{
+        font-size: 1.4rem;
+    }
+
+    .postInTransparent{
+        font-size: 1.2rem;
+    }
+
+    /* top products... */
+
+    .showingProductsColumnInTopProducts h2{
+        font-size: 2rem;
+    }
+
+    .topProductsInOneBox{
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+    }
+
+    .showingProductsColumnInTopProducts{
+        width: 100%;
+    }
+
+    .columnsInSaleProducts{
+        width: 73.2rem;
+        
+    }
+
+    .mainProductsIntopProductsBox{
+        justify-content: center;
+    }
+
+    .nameInTopProducts {
+        font-size: 1.75rem;
+    }
+
+    .priceInTopProducts{
+        font-size: 2.1rem;
+    } 
+
+    .cutPriceInTopProducts{
+        font-size: 1.8rem;
+    }
+
+    /* arrows in top products box... */
+    .containerOfArrowsInTopProducts{
+        width: 6rem;
+        height: 2.7rem;
+    }
+
+    .containerOfArrowsInTopProducts i{
+        font-size: 1.5rem;
+    }
+
+    /* from the blog... */
+    .headingInFromTheBlog{
+        font-size: 2.5rem;
+    }
+
+    .afterHeadingInFromTheBlog{
+        font-size: 1.2rem;
+    }
+
+    /* from the blog */
+    .mainElementInFromTheBlog{
+        min-width: 73.4rem;
+    }
+
+    .headingBlog{
+        font-size: 2rem;
+    }
+
+    .afterHeadingBLog{
+        font-size: 1.5rem;
+    }
+
+    .containerOfImageInFromTheBlog{
+        height: 16rem;
+    }
+
+    .mainBlogInFromTheBlog{
+        font-size: 1.2rem;
+    }
+
+    /* other brands... */
+    .brandLogo{
+        padding: 0 3.68rem;
+    }
+
+    /* footer..... */
+    .mainFooter{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .firstAndlastInMainFooter{
+        width: 98%;
+        
+    }
+
+    .headingFooter {
+        font-size: 1.3rem;
+        width: 11.5rem;
+    }
+    
+    .containerOfDetails{
+        flex-direction: row;
+        gap: 10rem;
+
+    }
+
+    .detail i{
+        height: 4rem;
+        width: 4rem;
+        font-size: 1.4rem;
+    }
+
+    .headingMainDetail{
+        font-size: 1.1rem;
+    } 
+
+    .aboutHeadingInDetail{
+        font-size: 1rem;
+    }
+
+    /* mid in footer... */
+
+    .midInMainFooter{
+        width: 98%;
+        
+    }
+
+    
+    .whiteTriangleInMidFooter{
+        background-color: #0f1e22
+        
+    }
+
+    .bottomTriangleInMidFooter{
+        width: 96%;
+    }
+
+    .sectionAInMidFooter{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 3rem;
+    }
+
+    .headingMidFooter{
+        font-size: 2.4rem;
+    }
+
+    .peraMidFooter{
+        font-size: 1rem;
+        width: auto;
+    }
+
+    .subscribeContainer{
+        margin: 0;
+        height: fit-content;
+    }
+
+    .subscribeContainer input{
+        width: 22rem;
+        font-size: 1.2rem;
+    }
+
+    .boxSubscribe{
+        height: 3.8125rem;
+        width: 10.29625rem;
+        font-size: 1.3rem;
+    } 
+
+    .sectionBInMidFooter{
+        margin-top: 3rem;
+    }
+
+    .headigFollowUs{
+        font-size: 3rem;
+    }
+
+    .containerOfSocialMediaInFooter{
+        gap: 3rem;
+    }
+
+    .containerOfSocialMediaInFooter a i{
+        height: 4.7rem;
+        width: 4.7rem;
+        font-size: 2rem;
+    }
+
+    .firstAndlastInMainFooter{
+        margin-bottom: 1rem;
+    }
+
+    .containerOfAboutUsPeras p{
+        font-size: 1.2rem;
+    }
+
+    .paymentCardAndOther{
+        justify-content: space-between;
+        gap: 0;
+        padding: 0 1rem;
+        height: fit-content;
+    }
+
+    .rights{
+        font-size: 1rem;
+    }
+
+    /* go to top... */
+    #goToTop{
+        height: 4.2rem;
+        width: 4.2rem;
+        font-size: 2.5rem;
+    }
+}
+
+
+
+
+@media (min-width: 967px){
+    .menuList{
+        display: none;
+    }
+}
+
+
+
+@media (max-width: 760px){
+    html{
+        font-size: 9.9px;
+    }
+
+    
+
+    .socialMediaAndPhoneOnTop{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .socialMediaOnTop{
+        display: flex;
+        gap: 3.5rem;
+    }
+
+    .socialMediaOnTop a{
+        margin: unset;
+    }
+
+    
+
+    .colntrolNavigationBarWithSlide .iconsInNavBar{
+        right: 0rem;
+    }
+    
+    /* menu things.... */
+    .menHoverEffect{
+        flex-direction: column;
+        height: 87rem;
+    }
+
+    
+    /* main slider ... */
+    #mainsliderContentFirst,
+    #mainsliderContentSecond,
+    #mainsliderContentThird{
+        align-items: center;
+    }
+
+    .h1InMainSliderThird{
+        width: fit-content;
+    }
+
+    .h1InMainSliderThird, .h1InMainSliderSecond, .h1InMainSliderFirst{
+        font-size: 2.5rem;
+    }
+
+    .peraInMainSliderThird, .peraInMainSliderSecond, .peraInMainSliderFirst{
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .priceInMainSliderThird, .priceInMainSliderSecond, .priceInMainSliderFirst{
+        font-size: 1rem;
+    }
+
+    .shopNowAInMainSliderThird, .shopNowAInMainSliderSecond, .shopNowAInMainSliderFirst{
+        font-size: 1rem;
+    }
+
+    /* animated logos after main slider..... */
+    .rotateLogosOnHoverContainer{
+        flex-direction: column;
+        gap: 1.5rem;        
+    }
+
+    .rotateLogoBox{
+        width: 100%;
+        height: 15rem;
+
+    }
+
+    .rotateLogoBox i,
+    .rotateLogoBox p{
+        font-size: 2rem !important;
+    }
+
+    /* sale and products... */
+    .ContainerProductsAndSales{
+        flex-direction: column;
+        gap: 2rem;
+        /* border: solid 1px black; */
+    }
+
+    .ContainerProductsAndSales a{
+        width: 80%;
+        height: 59rem;
+        margin: 0 auto;
+    }
+
+    
+
+    /* featured products.. */
+    .showingFeaturedProducts{
+        overflow-x: scroll;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .mainFeaturedProductBox{
+        margin: 0 3rem;
+    }
+
+    .buttonForFeaturedProductSlide{
+        display: none;
+    }
+
+    .nameOfFeaturedProducts{
+        font-size: 1.3rem;
+    }
+
+    .pricesOfFeaturedProduct{
+        width: 13rem;
+    }
+
+    .originalPriceOfFeaturedProduct{
+        font-size: 1.2rem;
+    }
+
+    .CutPriceOfFeaturedProduct{
+        font-size: 1.1rem;
+    }
+
+    /* small ads */
+    .smallAdds{
+        flex-direction: column;
+    }
+
+    .smallAd{
+        min-height: 19.6rem;
+        min-width: 54.7rem;
+    }
+
+    /* sale products.... */
+    .showingSaleProducts{
+        
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .mainSaleProductBox{
+        margin: 0 3rem;
+    }
+
+    
+}
+
+@media(max-width: 722px){
+    .arrowcontainerMainSlider {
+        font-size: 3.8rem;
+    }
+
+    /* from the blog buttons... */
+
+    .sliderButtonsForFromTheBlog{
+        gap: 1.5rem;
+    }
+
+    .buttonForFromTheBlogslide  {
+        width: 5rem;
+        height: 5rem;
+        font-size: 1.6rem;
+    }
+
+    /* other brands logo... */
+    .showOtherBrands{
+        width: 52rem;
+    }
+
+    /* footer... */
+    .headingMainDetail {
+        font-size: 1.4rem;
+    }
+
+    .aboutHeadingInDetail {
+        font-size: 1.2rem;
+    }
+}
+
+@media(max-width: 680px){
+    /* transparent part... */
+    .headingInTransparentPart{
+        font-size: 2.5rem;
+    }
+    
+    .afterHeadingInTransparentPart{
+        font-size: 1.4rem;
+    }
+    
+    .aboutInTransparent{
+        width: 68%;
+    } 
+
+    .imagecontainerInTransparent {
+        left: -5rem;
+    }
+    
+    .triangleForTransparentPart {
+        left: 2.5rem;
+    }
+    
+    .imagecontainerInTransparent img {
+        width: 7.5rem;
+    
+    }
+    
+    .nameInTransparent{
+        font-size: 1.6rem;
+    }
+    
+    .postInTransparent{
+        font-size: 1.3rem;
+    }
+
+    /* top products in one box.... */
+    .showingProductsColumnInTopProducts h2{
+        font-size: 2.5rem;
+    }
+
+    /* other brands logo... */
+    .showOtherBrands{
+        width: 44.2rem;
+    }
+
+    .brandLogo {
+        padding: 0 12.2rem;
+    }
+
+    /* footer....... */
+    .headingFooter {
+        font-size: 1.8rem;
+        width: 16.5rem;
+    }
+}
+
+@media(max-width: 617px){
+    /* menu things.... */
+    .menHoverEffect{
+        height: 93rem;
+    }
+
+    /* top products.. */
+    .topProductsInOneBox{
+        gap: 5rem;
+    }
+
+    /* arrows in top products box... */
+    .containerOfArrowsInTopProducts{
+        width: 11rem;
+        height: 5.7rem;
+    }
+
+    .containerOfArrowsInTopProducts i{
+        font-size: 2rem;
+    }
+
+    /* footer.... */
+    .rights{
+        font-size: 1.1rem;
+    }
+
+    /* go to top... */
+    #goToTop{
+        height: 5.2rem;
+        width: 5.2rem;
+        font-size: 2.9rem;
+        right: 2rem;
+        bottom: 2rem;
+    }
+}
+
+@media(max-width: 600px){
+    /* transparent part... */
+    .aboutInTransparent{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imagecontainerInTransparent{
+        position: unset;
+        transform: unset;
+        
+    }
+
+    .imagecontainerInTransparent img{
+        box-shadow: unset;
+        border: none;
+        width: 8rem;
+        margin-bottom: 1rem;
+    }
+
+    .triangleForTransparentPart{
+        display: none;
+    }
+
+    /* other brands... */
+    .brandLogo {
+        padding: 0px 10.5rem;
+    }
+
+    /* footer.... */
+    .sectionAInMidFooter{
+        padding: 0 .5rem;
+    }
+
+    .headingMidFooter {
+        font-size: 2.8rem;
+    }
+
+    .peraMidFooter {
+        font-size: 1.3rem;
+    }
+
+    .boxSubscribe{
+        height: 4.8125rem;
+        font-size: 1.5rem;
+    }
+    
+}
+
+@media(max-width: 580px){
+    /* from the blog... */
+    .mainElementInFromTheBlog {
+        min-width: 73.2rem;
+    }
+
+    .containerOfImageInFromTheBlog {
+        height: 22rem;
+    }
+
+    /* footer... */
+    .headingMainDetail {
+        font-size: 1.7rem;
+    }
+
+    .aboutHeadingInDetail {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width:560px){
+    /* search box... */
+    .searchboxInNav{
+        width: 22.625rem;
+        height: 3.5rem;
+        right: 60%;
+        top: 3.375rem;
+    }
+
+    #searched{
+        font-size: 1.5rem;
+    }
+
+    #searchInSearchBox {
+        font-size: 2rem;
+        width: 20%;
+    }
+    
+    .phone p,
+    .phone i{
+        font-size: 1.8rem;
+    }
+
+    .socialMediaOnTop i{
+        font-size: 2rem;
+    }
+
+    .navigationbar {
+        flex-direction: column;
+        gap: 2rem;
+
+    }
+
+    .iconsInNavBar i{
+        font-size: 2rem;
+    }
+
+    .iconsInNavBar{
+        position: unset;
+    }
+
+    #bucketOfCart {
+        font-size: 2rem;
+    }
+
+    .boxForCartNumber{
+        height: 2.5rem;
+        min-width: 4rem;
+    }
+
+    .boxForCartNumber span{
+        font-size: 1.5rem;
+    }
+
+    .headingMenuList {
+        font-size: 2.5rem;
+    }
+
+    /*  menu things... */
+    .containerOfMenuListItems ul li{
+        font-size: 1.5rem;
+    }
+
+    
+    .menHoverEffect{
+        height: 100rem;
+    }
+
+    .ladies .ladiesHoverEffect{
+        height: 38rem;
+    }
+
+    .ladiesHoverEffect  a img{
+        width: 100%;
+    }
+    
+
+    /* main slider things */
+    .peraInMainSliderThird, .peraInMainSliderSecond, .peraInMainSliderFirst{
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    .priceInMainSliderThird, .priceInMainSliderSecond, .priceInMainSliderFirst{
+        font-size: 1.4rem;
+    }
+
+    .shopNowAInMainSliderThird, .shopNowAInMainSliderSecond, .shopNowAInMainSliderFirst{
+        font-size: 1.4rem;
+    }
+
+    /* featured products heading and other... */
+    .headingBoxOfFeaturedProducts h2, .headingBoxOfSaleProducts a{
+        font-size: 3rem;
+    }
+
+    .headingBoxOfFeaturedProducts p, .headingBoxOfSaleProducts p{
+        font-size: 1.5rem;
+    }
+
+    /* featured products... */
+    .showingFeaturedProducts{
+        /* border: solid 1px red; */
+        width: 55%;
+        height: 42rem;
+
+    }
+
+    .mainFeaturedProductBox{
+        min-width: 33.5rem;
+    }
+
+    .nameOfFeaturedProducts{
+        font-size: 1.5rem;
+    }
+
+    .pricesOfFeaturedProduct{
+        width: 15rem;
+    }
+
+    .originalPriceOfFeaturedProduct{
+        font-size: 1.4rem;
+    }
+
+    .CutPriceOfFeaturedProduct{
+        font-size: 1.3rem;
+    }
+
+    /* sale products.... */
+    .showingSaleProducts{
+        /* border: solid 1px red; */
+        width: 55%;
+        height: 42rem;
+
+    }
+
+    .mainSaleProductBox{
+        min-width: 33.5rem;
+    }
+
+    /* transparent part... */
+    .containerInTransparentPart{
+        border: none;
+    }
+
+    .headingInTransparentPart{
+        font-size: 3rem;
+    }
+    
+    .afterHeadingInTransparentPart{
+        font-size: 1.5rem;
+    }
+    
+    .aboutInTransparent{
+        width: 88%;
+    } 
+
+   
+    .imagecontainerInTransparent img {
+        width: 8.5rem;
+    
+    }
+    
+    .nameInTransparent{
+        font-size: 1.9rem;
+    }
+    
+    .postInTransparent{
+        font-size: 1.6rem;
+    }
+
+    /* from the blog... */
+    .containerOfElementInFromTheBlog{
+        flex-direction: column;
+    }
+
+    .mainElementInFromTheBlog{
+        padding: 0 3.8rem;
+    }
+
+    .containerOfImageInFromTheBlog{
+        margin: 0 auto;
+    }
+
+    .headingBlog{
+        font-size: 2.3rem;
+    }
+
+    .afterHeadingBLog{
+        font-size: 1.7rem;
+    }
+
+    .mainBlogInFromTheBlog{
+        font-size: 1.5rem;
+    }
+
+    /* other brands... */
+    .brandLogo {
+        padding: 0px 9.5rem;
+    }
+
+    /* footer........ */
+    .detail i {
+        height: 5rem;
+        width: 5rem;
+        font-size: 2rem;
+    }
+}
+
+@media(max-width: 534px){
+    /*  menu things... */
+   
+    .menHoverEffect{
+        height: 110rem;
+    }
+
+    /* top products.... */
+    .showingProductsColumnInTopProducts h2{
+        font-size: 3rem;
+    }
+
+    .nameInTopProducts {
+        font-size: 2.5rem;
+    }
+
+    .priceInTopProducts{
+        font-size: 2.6rem;
+    } 
+
+    .cutPriceInTopProducts{
+        font-size: 2.4rem;
+    }
+
+    /* from the blog... */
+    .headingInFromTheBlog{
+        font-size: 4rem;
+    }
+
+    .afterHeadingInFromTheBlog{
+        font-size: 2rem;
+    }
+
+    /* other brands... */
+    .brandLogo {
+        padding: 0px 7.5rem;
+    }
+
+    /* footer... */
+    .containerOfDetails{
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .containerOf2Details{
+        gap: 3rem;
+    }
+
+    .sectionAInMidFooter{
+        font-size: 3rem;
+        flex-direction: column;
+    }
+
+    .headingMidFooter{
+        font-size:  3rem;
+    }
+
+    .peraMidFooter {
+        font-size: 1.7rem;
+    }
+
+    .subscribeContainer input {
+        width: 27rem;
+        font-size: 1.7rem;
+    }
+
+    .boxSubscribe {
+        height: 4.8125rem;
+        width: 15rem;
+        font-size: 1.9rem;
+    }
+
+    /* go to top... */
+    #goToTop{
+        height: 6.2rem;
+        width: 6.2rem;
+        font-size: 3.5rem;
+    }
+
+}
+
+@media(max-width: 509px){
+    
+    .menHoverEffect{
+        height: 115rem;
+    }
+    
+    /*  menu things... */
+    .showOtherBrands {
+        width: 48.2rem;
+    }
+
+    .brandLogo {
+        padding: 0px 8.5rem;
+    }
+
+    /* from the blog... */
+    .containerOfImageInFromTheBlog {
+        height:33rem;
+    }
+
+    /* footer....... */
+    .headingFooter {
+        font-size: 2.4rem;
+        width: 20.5rem;
+    }
+
+    .headingMainDetail {
+        font-size: 2.1rem;
+    }
+
+    .aboutHeadingInDetail {
+        font-size: 1.9rem;
+    }
+
+    .paymentCardAndOther{
+        padding: 1rem;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .rights{
+        font-size: 1.4rem;
+    }
+
+}
+
+@media(max-width: 424px){
+    /*  menu things... */
+   
+    .menHoverEffect{
+        height: 120rem;
+    }
+
+    /* from the blog... */
+    .headingBlog{
+        font-size: 2.6rem;
+    }
+
+    .afterHeadingBLog{
+        font-size: 2rem;
+    }
+
+    .mainBlogInFromTheBlog{
+        font-size: 1.7rem;
+    }
+
+    
+
+    
+    /* featured products... */
+    .newLogoInFeaturedProducts {
+        width: 4.7rem;
+        height: 4.7rem;
+        font-size: 1.6rem;
+    }
+    
+      .saleLogoInFeaturedProducts {
+        width: 4.7rem;
+        height: 4.7rem;
+        font-size: 1.6rem;
+    }
+}
+
+
+@media(max-width:400px){
+    .iconsInNavBar i{
+        font-size: 2.3rem;
+    }
+    
+    #bucketOfCart {
+        font-size: 2.3rem;
+    }
+
+    .boxForCartNumber{
+        height: 2.8rem;
+        min-width: 4rem;
+    }
+
+    .boxForCartNumber span{
+        font-size: 2.3rem;
+    }
+
+    /* other brands logo.. */
+    .showOtherBrands {
+        width: 52.2rem;
+    }
+}
+
+@media(max-width: 357px){
+    /*  menu things... */
+   
+    .menHoverEffect{
+        height: 132rem;
+    }
+
+   
+     /* from the blog... */
+    /* from the blog... */
+    .mainElementInFromTheBlog {
+        min-width: 72.9rem;
+    }
+
+
+     .headingBlog{
+        font-size: 3rem;
+    }
+
+    .afterHeadingBLog{
+        font-size: 2.6rem;
+    }
+
+    .mainBlogInFromTheBlog{
+        font-size: 2rem;
+    }
+
+    
+
+    /* other brands logos... */
+    .showOtherBrands {
+        width: 57.2rem;
+    }
+}
+
+@media(max-width: 319px){
+    /*  menu things... */
+   
+    .menHoverEffect{
+        height: 138rem;
+    }
+}
+
+/* set html font sizes */
+@media (max-width: 740px){
+    html{
+        font-size: 9.8px;
+    }
+}
+
+@media (max-width: 723px){
+    html{
+        font-size: 9.3px;
+    }
+}
+
+@media (max-width: 685px){
+    html{
+        font-size: 9px;
+    }
+}
+
+@media (max-width: 665px){
+    html{
+        font-size: 8.8px;
+    }
+}
+
+@media (max-width: 649px){
+    html{
+        font-size: 8.4px;
+    }
+}
+
+@media (max-width: 619px){
+    html{
+        font-size: 8px;
+    }
+}
+
+@media (max-width: 601px){
+    html{
+        font-size: 7.5px;
+    }
+}
+
+@media (max-width: 581px){
+    html{
+        font-size: 7.2px;
+    }
+}
+
+@media (max-width: 569px){
+    html{
+        font-size: 7.1px;
+    }
+}
+
+@media (max-width: 562px){
+    html{
+        font-size: 6.8px;
+    }
+}
+
+@media (max-width: 550px){
+    html{
+        font-size: 6.6px;
+    }
+}
+
+@media (max-width: 541px){
+    html{
+        font-size: 6.4px;
+    }
+}
+
+@media (max-width: 533px){
+    html{
+        font-size: 6.2px;
+    }
+}
+
+@media (max-width: 525px){
+    html{
+        font-size: 6px;
+    }
+}
+
+@media (max-width: 517px){
+    html{
+        font-size: 5.8px;
+    }
+}
+
+@media (max-width: 509px){
+    html{
+        font-size: 5.5px;
+    }
+}
+
+@media (max-width: 496px){
+    html{
+        font-size: 5.2px;
+    }
+}
+
+@media (max-width: 485px){
+    html{
+        font-size: 5.6px;
+    }
+    body,html{
+        width: 100%;
+        height: 100%;
+        overflow-x: hidden;
+    
+    }
+}
+
+@media (max-width: 424px){
+    html{
+        font-size: 5px;
+    }
+}
+
+@media (max-width: 375px){
+    html{
+        font-size: 4.8px;
+    }
+}
+
+@media (max-width: 357px){
+    html{
+        font-size: 4.6px;
+    }
+}
+
+@media (max-width: 340px){
+    html{
+        font-size: 4.3px;
+    }
+}
+
+@media (max-width: 319px){
+    html{
+        font-size: 4.1px;
+    }
+}
+
+@media (max-width: 300px){
+    .containerOfAllInMid{
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
